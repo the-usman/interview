@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './assets/components/Header';
+import CoinPrice from './assets/components/CoinPrice';
+import ImageSection from './assets/components/ImageSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <CoinPrice />
+      <ImageSection />
     </div>
   );
 }
